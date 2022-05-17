@@ -1,3 +1,23 @@
+.code-btn {
+    width: 5em;
+    background: #fff;
+    color: rgb(13, 40, 150);
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 6px 12px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 12px;
+    text-decoration: none;
+}
+
+.code-btn:hover {
+    background: rgba(208, 208, 208, 0.706);
+    cursor: pointer;
+    transition: 1s;
+}
+
 .two-emails {
     width: 80%;
     margin: auto;
@@ -5,7 +25,7 @@
 }
 
 .button {
-    padding: 30px;
+    padding: 20px;
 }
 
 .email-col {
