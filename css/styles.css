@@ -20,7 +20,12 @@
     
     .header_about {
         background: linear-gradient(rgba(15, 3, 67, 0.877), rgba(4, 2, 16, 0.956));
-        height: 280vh;
+        height: 220vh;
+    }
+    
+    .header_landing {
+        background: linear-gradient(rgba(15, 3, 67, 0.877), rgba(4, 2, 16, 0.956));
+        height: 160vh;
     }
     
     @media(max-width:700px) {
