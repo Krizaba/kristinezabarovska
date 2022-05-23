@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Email Template Project</title>
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+    </style>
+
+</head>
+
+
+<body style="Margin:0;padding:0;min-width:100%;background-color:#dde0e1;">
+
+    <center style="width: 100%;table-layout: fixed;background-color:#dde0e1;padding-bottom: 40px;">
+        <div style="max-width: 600px;background-color: #fafdfe;box-shadow: 0 0 10px rgba(0, 0, 0, .2);">
+            <table align="center" style="border-spacing:0;color:#565656;font-family: 'Lato', sans-serif, Arial, Helvetica!important;background-color: #fafdfe;Margin:0;padding:0;width: 100%;max-width: 600px;" role="presentation">
+                <tr>
+                    <td style="padding: 0;">
+                        <table width="100%" style="border-spacing: 0;background-color: #eaf6fb;" role="presentation">
+
+                            <tr>
+                                <td height="20" style="background-color: #ffff4f;"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 0;">
+                        <table width="100%" style="border-spacing: 0;background-color: #fafdfe;" role="presentation">
+
+                            <tr>
+                                <td style="padding: 40px 0 40px 0;text-align: center;">
+                                    <a href="https://example.com" target="_blank"><img style="width:10em;" src="https://i.ibb.co/jT2GTpP/5a9fc00e9fc609199d0ff168.png" alt="" width="280" border="0"></a>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="content" style="font-family:Lato; color:rgb(56, 56, 56);padding:30px 0 30px; text-align:center; line-height:35px;">
+                        <h3>
+                            Hi! <br> Here is the confirmation code for your online form:
+                        </h3>
+                        <h1 style="font-size:3em;letter-spacing:8px;">
+                            5749
+                        </h1>
+                        <h3>All you have to do is copy the confirmation code and <br> paste it to your form to complete the email <br> verification process.</h3>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 0;">
+                        <table width="100%" style="border-spacing: 0;background-color: #9dcbf9; height:45em;" role="presentation">
+                            <tr>
+                                <td style="width:100%; height:30vh;  display:flex; align-items:center; justify-content:center;">
+                                    <form onsubmit="sendEmail(); reset(); return false;" style="background:#fff; display:flex; flex-direction:column;padding: 30px 30px; width:60%; border-radius:10px;margin-top:28em;">
+                                        <h3 style="font-weight:800; font-family:Lato;">CONTACT US</h3>
+                                        <input style="border:0;margin: 10px 0; padding:20px;outline:none;background:#efefefea; font-size:16px" type="text" id="name" placeholder="Your Name" required>
+                                        <input style="border:0;margin: 10px 0; padding:20px;outline:none;background:#efefefea;font-size:16px" type="email" id="email" placeholder="Email id" required>
+                                        <input style="border:0;margin: 10px 0; padding:20px;outline:none;background:#efefefea;font-size:16px" type="text" id="phone" placeholder="Phone Nr" required>
+                                        <textarea style="border:0;margin: 10px 0; padding:20px;outline:none;background:#efefefea; font-size:16px" id="message" rows="4"></textarea>
+                                        <button class="go-on" style="padding:12px; background:#ffff4f;color:#000; font-size:18px; font-weight:bold; border:0; outline:none; cursor:pointer; width:150px; margin: 20px auto 0; border-radius:20px; color:rgb(74, 74, 74);" type="submit">Go on!</button>
+                                    </form>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="20" style="background-color: #ffff4f;"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+            </table>
+
+            </table>
+        </div>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+            function sendEmail() {
+                Email.send({
+                    Host: "smtp.yourisp.com",
+                    Username: "username",
+                    Password: "password",
+                    To: 'them@website.com',
+                    From: "you@isp.com",
+                    Subject: "This is the subject",
+                    Body: "And this is the body"
+                }).then(
+                    message => alert(message)
+                );
+            }
+        </script>
+    </center>
+</body>
