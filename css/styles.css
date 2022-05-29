@@ -6,35 +6,41 @@
     }
     
     .header,
-    .header_about,
-    .header_works,
     .header_contact {
         min-height: 100vh;
         height: 160vh;
         width: 100%;
-        background: linear-gradient(rgba(10, 23, 76, 0.601), rgba(4, 9, 30, 0.809)), url(https://i.ibb.co/DrwCHsR/HAB4.jpg);
+        background: linear-gradient(rgba(31, 7, 167, 0.362), rgba(1, 2, 20, 0.956)), url(https://i.ibb.co/DrwCHsR/HAB4.jpg);
         background-position: center;
         background-size: cover;
         position: relative;
     }
     
-    .header_promemail {
-        background: linear-gradient(rgba(15, 3, 67, 0.877), rgba(4, 2, 16, 0.956));
-        height: 170vh;
+    .header_about,
+    .header_works,
+    .header_newsemail {
+        min-height: 100vh;
+        height: 160vh;
+        width: 100%;
+        background: linear-gradient(rgba(31, 7, 167, 0.877), rgba(1, 2, 20, 0.956));
+        background-position: center;
+        background-size: cover;
+        position: relative;
     }
     
-    .header_transemail {
-        background: linear-gradient(rgba(15, 3, 67, 0.877), rgba(4, 2, 16, 0.956));
+    .header_transemail,
+    .header_promemail {
+        background: linear-gradient(rgba(31, 7, 167, 0.877), rgba(1, 2, 20, 0.956));
         height: 170vh;
     }
     
     .header_about {
-        background: linear-gradient(rgba(15, 3, 67, 0.877), rgba(4, 2, 16, 0.956));
+        background: linear-gradient(rgba(31, 7, 167, 0.877), rgba(1, 2, 20, 0.956));
         height: 250vh;
     }
     
     .header_landing {
-        background: linear-gradient(rgba(15, 3, 67, 0.667), rgba(4, 2, 16, 0.956));
+        background: linear-gradient(rgba(31, 7, 167, 0.877), rgba(1, 2, 20, 0.956));
     }
     
     @media(max-width:700px) {
