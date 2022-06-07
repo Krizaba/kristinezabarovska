@@ -36,7 +36,7 @@
     
     .header_about {
         background: linear-gradient(rgba(31, 7, 167, 0.877), rgba(1, 2, 20, 0.956));
-        height: 250vh;
+        height: 210vh;
     }
     
     .header_landing {
@@ -62,10 +62,27 @@
         }
     }
     
+    .header_newsemail h2,
+    .header_landing h2,
+    .header_promemail h2,
+    .header_transemail h2 {
+        color: rgb(166, 166, 166);
+        position: relative;
+        text-align: center;
+        top: 30px;
+    }
+    
     .mov-text {
         font-size: 65px;
         color: #fff;
-        padding-top: 40px;
+        padding-top: 1.5em;
+    }
+    
+    @media(max-width:700px) {
+        .mov-text {
+            padding-top: 2.5em;
+            font-size: 50px;
+        }
     }
     
     nav {
@@ -114,7 +131,7 @@
         color: #fff;
         position: absolute;
         padding-left: 15px;
-        top: 40%;
+        top: 35%;
         bottom: 50%;
         text-align: center;
     }
@@ -142,7 +159,7 @@
         background: transparent;
         position: relative;
         cursor: pointer;
-        top: 30%;
+        top: 10%;
     }
     
     .hero-btn:hover {
@@ -154,7 +171,7 @@
     }
     
     .happy h4 {
-        padding-top: 80px;
+        padding-top: 30px;
         font-size: 16px;
         font-weight: 120;
     }
