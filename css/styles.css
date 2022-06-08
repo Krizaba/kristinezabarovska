@@ -63,7 +63,7 @@
         }
     }
     
-    .header_thankyou h1 {
+    .header_thankyou .sucess {
         color: rgb(178, 183, 235);
         position: relative;
         text-align: center;
