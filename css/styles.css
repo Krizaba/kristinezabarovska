@@ -63,12 +63,6 @@
             }
         }
         
-        @media(max-width:500px) {
-            .header {
-                width: 100%;
-            }
-        }
-        
         .header_newsemail h2,
         .header_landing h2,
         .header_promemail h2,
