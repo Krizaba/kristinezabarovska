@@ -63,13 +63,6 @@
         }
     }
     
-    .header_thankyou .sucess {
-        color: rgb(178, 183, 235);
-        position: relative;
-        /* margin-left: 40%; */
-        top: 10%;
-    }
-    
     .header_newsemail h2,
     .header_landing h2,
     .header_promemail h2,
