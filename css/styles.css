@@ -154,6 +154,10 @@
         color: #fff;
     }
     
+    .text-box img {
+        width: 20%;
+    }
+    
     .hero-btn {
         display: inline-block;
         text-decoration: none;
