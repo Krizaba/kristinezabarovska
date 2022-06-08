@@ -66,8 +66,8 @@
     .header_thankyou .sucess {
         color: rgb(178, 183, 235);
         position: relative;
-        text-align: center;
-        top: 60px;
+        align-items: center;
+        top: 40%;
     }
     
     .header_newsemail h2,
