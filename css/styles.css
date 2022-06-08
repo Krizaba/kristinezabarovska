@@ -18,7 +18,8 @@
     
     .header_about,
     .header_works,
-    .header_newsemail {
+    .header_newsemail,
+    .header_thankyou {
         min-height: 100vh;
         height: 160vh;
         width: 100%;
@@ -60,6 +61,13 @@
         .header_contact {
             height: 190vh;
         }
+    }
+    
+    .header_thankyou h1 {
+        color: rgb(178, 183, 235);
+        position: relative;
+        text-align: center;
+        top: 60px;
     }
     
     .header_newsemail h2,
