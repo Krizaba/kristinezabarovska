@@ -73,16 +73,24 @@
             top: 30px;
         }
         
-        .mov-text {
-            font-size: 65px;
-            color: #fff;
-            padding-top: 1.5em;
-        }
-        
         @media(max-width:700px) {
-            .mov-text {
+            .main-title h1 {
                 padding-top: 2.5em;
                 font-size: 50px;
+            }
+        }
+        
+        @media(max-width:390px) {
+            .main-title h1 {
+                padding-top: 0.05em;
+                font-size: 35px;
+            }
+        }
+        
+        @media(max-width:550px) {
+            .main-title h1 {
+                padding-top: 0.05em;
+                font-size: 40px;
             }
         }
         
@@ -137,13 +145,23 @@
             text-align: center;
         }
         
+        @media(min-width:699px)and (max-width:912px) {
+            .text-box {
+                top: 28%;
+            }
+            .main-title h1 {
+                padding-top: 0.05em;
+                font-size: 35px;
+            }
+        }
+        
         .main-title {
             font-size: 2em;
             width: 90%;
             color: rgb(107, 221, 255);
             position: absolute;
             padding-left: 15px;
-            top: 15%;
+            top: 10%;
             bottom: 70%;
             text-align: center;
         }
