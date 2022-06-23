@@ -105,6 +105,16 @@
                 padding-top: 0.05em;
                 font-size: 40px;
             }
+            .header_newsemail h2,
+            .header_landing h2,
+            .header_promemail h2,
+            .header_transemail h2 {
+                font-size: 16px;
+                color: rgb(166, 166, 166);
+                position: relative;
+                text-align: center;
+                top: 10px;
+            }
         }
         
         nav {
