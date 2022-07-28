@@ -440,6 +440,12 @@
             color: rgb(255, 255, 255);
             font-weight: 400;
         }
+        .contact-col div h5 a {
+            font-size: 20px;
+            margin-bottom: 5px;
+            color: rgb(255, 255, 255);
+            font-weight: 400;
+        }
         
         @media(max-width:700px) {
             .contact-col div h5 {
