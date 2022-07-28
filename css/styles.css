@@ -8,7 +8,7 @@
         .header,
         .header_contact {
             min-height: 100vh;
-            height: 160vh;
+            /* height: 160vh; */
             width: 100%;
             background: linear-gradient(rgba(31, 7, 167, 0.362), rgba(1, 2, 20, 0.956)), url(https://i.ibb.co/DrwCHsR/HAB4.jpg);
             background-position: center;
@@ -17,11 +17,20 @@
         }
         
         .header_about,
-        .header_works,
         .header_newsemail,
         .header_thankyou {
             min-height: 100vh;
-            height: 160vh;
+            /* height: 160vh; */
+            width: 100%;
+            background: linear-gradient(rgba(31, 7, 167, 0.877), rgba(1, 2, 20, 0.956));
+            background-position: center;
+            background-size: cover;
+            position: relative;
+        }
+
+        .header_works{
+            min-height: 100vh;
+            /* height: 260vh; */
             width: 100%;
             background: linear-gradient(rgba(31, 7, 167, 0.877), rgba(1, 2, 20, 0.956));
             background-position: center;
@@ -32,19 +41,20 @@
         .header_transemail,
         .header_promemail {
             background: linear-gradient(rgba(31, 7, 167, 0.877), rgba(1, 2, 20, 0.956));
-            height: 170vh;
+            min-height: 100vh;
         }
         
         .header_about {
             background: linear-gradient(rgba(31, 7, 167, 0.877), rgba(1, 2, 20, 0.956));
-            height: 210vh;
+            min-height: 100vh;
         }
         
         .header_landing {
             background: linear-gradient(rgba(31, 7, 167, 0.877), rgba(1, 2, 20, 0.956));
+            min-height: 100vh;
         }
         
-        @media(max-width:700px) {
+         @media(max-width:700px) {
             .header_about {
                 height: 350vh;
             }
@@ -61,7 +71,7 @@
             .header_contact {
                 height: 190vh;
             }
-        }
+        } 
         
         .header_newsemail h2,
         .header_landing h2,
@@ -323,6 +333,71 @@
             transition: 0.2s;
             cursor: pointer;
         }
+
+        .playroom,
+        .playroom_two {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            padding-top: 10px;
+        }
+        
+        .playroom h1
+        {
+            color: rgb(192, 192, 192);
+            font-weight: 600;
+        }
+        .playroom h3,
+        .playroom_two h3 {
+            color: rgb(255, 255, 255);
+            font-weight: 600;
+        }
+
+        .photoshop-col {
+            flex-basis: 24%;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .photoshop-col img {
+            height: 100%;
+            width: 100%;
+            display: block;
+        }
+        
+        .playroom_two {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            padding-top: 10px;
+        }
+        
+        .playroom_two h1 {
+            color: rgb(192, 192, 192);
+            font-weight: 600;
+        }
+        .playroom_two h3 {
+            color: rgb(255, 255, 255);
+            font-weight: 600;
+        }
+
+        .photoshop-col {
+            flex-basis: 24%;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .photoshop-col img {
+            height: 100%;
+            width: 100%;
+            display: block;
+        }
+        
+
         
         .about-us {
             width: 90%;
